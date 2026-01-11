@@ -1,0 +1,10 @@
+{
+    "name": "fashion-jackson-clone",
+    "main": "out/index.html",  // 确保入口文件指向正确的静态文件位置
+    "compatibility_flags": [],
+    "build": {
+      "command": "pnpm run build",
+      "directory": "out"
+    }
+  }
+  
