@@ -1,10 +1,11 @@
 {
-    "name": "fashion-jackson-clone",
-    "main": "out/index.html",  // 确保入口文件指向正确的静态文件位置
-    "compatibility_flags": [],
-    "build": {
-      "command": "pnpm run build",
-      "directory": "out"
-    }
-  }
-  
+  "name": "fashion-jackson-clone",
+  "main": "out/index.html",  // 或者你的静态入口文件
+  "compatibility_flags": [],
+  "build": {
+    "command": "pnpm run export",
+    "directory": "out"
+  },
+  "workers_dev": false,
+  "compatibility_date": "2026-01-11"
+}
